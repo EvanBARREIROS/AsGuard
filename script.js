@@ -56,12 +56,12 @@
   const SECTIONS = {
     accueil: {
       title: 'Développer sans jamais<br>sacrifier la <span class="accent">sécurité</span>.',
-      text: "AsGuard développe et sécurise vos applications, sites vitrines et infrastructures — une seule équipe, du premier commit à la mise en production.",
+      text: "AsGuard développe et sécurise vos applications, sites vitrines et infrastructures - une seule équipe, du premier commit à la mise en production.",
       cta: { text: 'Discuter de votre projet →', action: 'open-form' }
     },
     services: {
       title: 'Nos <span class="accent">services</span>.',
-      text: "Développement d'applications web & mobiles, sites vitrines et audit de sécurité — chaque projet est pensé du code à l'infrastructure. (Texte d'exemple à remplacer.)",
+      text: "Développement d'applications web & mobiles, sites vitrines et audit de sécurité - chaque projet est pensé du code à l'infrastructure. (Texte d'exemple à remplacer.)",
       cta: null
     },
     projets: {
