@@ -1,0 +1,67 @@
+/* ==========================================================
+   ASGARD — CHARTE GRAPHIQUE
+   Fichier centralisé : polices + couleurs
+   Copier le dossier "Chart/" (chart.css + fonts/) tel quel
+   ========================================================== */
+
+/* ---------- Polices (auto-hébergées, aucune dépendance internet) ---------- */
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('fonts/SpaceGrotesk[wght].woff2') format('woff2-variations');
+    font-weight: 300 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sora';
+    src: url('fonts/Sora-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('fonts/Manrope-Light.woff') format('woff');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('fonts/IBMPlexSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-display: swap;
+}
+
+:root {
+    /* ---- Police active ----
+     Décommenter UNE seule ligne ci-dessous, commenter les 3 autres */
+    --font-main: 'Space Grotesk', sans-serif;
+    /* --font-main: 'Sora', sans-serif; */
+    /* --font-main: 'Manrope', sans-serif; */
+    /* --font-main: 'IBM Plex Sans', sans-serif; */
+
+    /* ---- Palette colorielle ---- */
+    --color-bg: #0B0F16;
+    /* fond */
+    --color-text: #FFFFFF;
+    /* texte */
+    --color-accent: #00A8FF;
+    --color-primary: #1976FF;
+    --color-neutral: #D9DDE4;
+
+    /* ---- Palette colorielle d'état ---- */
+    --color-success: #00C853;
+    --color-info: #2196F3;
+    --color-warning: #FFC107;
+    --color-error: #FF3B30;
+}
+
+/* ---------- Application de base ---------- */
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-main);
+}
